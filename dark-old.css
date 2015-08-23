@@ -46,7 +46,7 @@ height: 22px;
 #right {
 font: .8em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 float: right;
-width: 60%;
+width: 72%;
 margin-top: 5px;
 margin-left: 10px;
 color: #f4f4f4;
@@ -54,7 +54,7 @@ color: #f4f4f4;
 
 #left { 
 font: .8em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-width: 37%;
+width: 24%;
 padding: 1px;
 line-height: 1.4em; 
 }
