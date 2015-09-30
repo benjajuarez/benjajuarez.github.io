@@ -21,4 +21,4 @@ Using Node.js
 
 You'll need:
 
-To run this app, save it to a file called app.js, npm install koa and run % node app from your command line. Next, visit http://localhost:3000. In your browser.
+To run this app, save it to a file called app.js, npm install koa and run % "node app &" from your command line. Next, visit http://localhost:3000. In your browser.
