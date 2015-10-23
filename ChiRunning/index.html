@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!-- Template by Quackit.com -->
-<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
-Although you can use them, for a more unique website, replace these images with your own. -->
 <html lang="en">
 
 <head>
@@ -33,7 +30,7 @@ Although you can use them, for a more unique website, replace these images with 
 
 <body>
 
-    <!-- Navigation -->
+    <!-- Menu superior -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Logo and responsive toggle -->
@@ -50,15 +47,23 @@ Although you can use them, for a more unique website, replace these images with 
                 </a>
             </div> 	-->
 
-            <!-- Navbar links -->
+            <!-- Menu con links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                        <a href="#">Sobre mí</a>
+                        <a href="#SobreMi">Sobre mí</a>
                     </li>
-                    <li>
-                        <a href="#">Archivo</a>
-                    </li>
+		    <!-- <li> <a href="#">Archivo</a> </li> -->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentación <span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="Panel-ChiRunning-Anuncio.1.pdf" target="_blank">Anuncio General</a></li>
+							<li><a href="/documentacion/JB.2015.TallerChiRunning.1-Instructivo.pdf" download="TallerChiRunning.1-Instructivo.pdf" target="_blank">1er Módulo</a></li>
+							<li><a href="/documentacion/JB.2015.TallerChiRunning.2-Instructivo.pdf" download="TallerChiRunning.2-Instructivo.pdf" target="_blank">2do Módulo</a></li>
+<!-- download as -->
+						</ul>
+					</li>
+		    <!-- <li> <a href="#">Archivo</a> </li> -->
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talleres <span class="caret"></span></a>
 						<ul class="dropdown-menu" aria-labelledby="about-us">
@@ -67,11 +72,12 @@ Although you can use them, for a more unique website, replace these images with 
 							<li><a href="#">Entrenamiento</a></li>
 						</ul>
 					</li>
+		    <!-- 
                     <li class="active">
                         <a href="#">Preguntas frecuentes</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="#Contacto" href="mailto:cr.southamerica@gmail.com">Contacto</a>
                     </li>
                 </ul>
                 
@@ -85,14 +91,14 @@ Although you can use them, for a more unique website, replace these images with 
             <div class="header-content-inner">
                 <h1>ChiRunning</h1>
                 <p>Llevalo hasta donde vos quieras</p>
-                <a href="#" class="btn btn-primary btn-lg">...</a>
+                <a href="#Proprioceptiva" class="btn btn-primary btn-lg">...</a>
             </div>
         </div>
     </header>
 
 	<!-- -->
 	<!-- Intro Section -->
-	<section class="intro">
+	<section class="intro" id="Proprioceptiva">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -103,6 +109,10 @@ Although you can use them, for a more unique website, replace these images with 
             </div>
         </div>
     </section> 	
+
+<!-- 
+<h2><span class="mw-headline" id="Distribution_in_nature">Distribution in nature</span></h2>
+-->
 
 	<!-- Content 1 -->
 	<section class="content">
@@ -116,11 +126,11 @@ style="width: 80%; margin-left: auto; margin-right: auto;" />
                 	<h2 class="section-header">Principios de trabajo </h2>
                 	<p class="lead text-muted">
 Todo el que practica algo mucho tiempo sabe que "más vale maña que fuerza". No es distinto acá.
-Se empieza con poco, pero se aprende toda la vida.
+Se empieza de a poco, pero se aprende siempre.
 <br><br>
 
 </p>
-                	<a href="#" class="btn btn-primary btn-lg">Video instructivo</a>
+                	<a href="https://www.youtube.com/watch?v=H26liWMDH8U" target="_blank" class="btn btn-primary btn-lg">Video instructivo</a>
                 </div>                
                 
             </div>
@@ -130,7 +140,7 @@ Se empieza con poco, pero se aprende toda la vida.
 	<!-- Content 2 -->
 	
      <section class="content content-2">
-        <div class="container">
+        <div class="container" id="SobreMi">
             <div class="row">
                 <div class="col-sm-6">
                 	<h2 class="section-header">Sobre mí</h2>
@@ -141,7 +151,7 @@ Se empieza con poco, pero se aprende toda la vida.
 Hoy, más de 20 años después de empezar, me gusta si puedo ayudar a alguien con lo que aprendí.
 </p>
 			</p>
-                	<a href="#" class="btn btn-default btn-lg">Preguntame</a>
+                	<a href="https://www.youtube.com/watch?time_continue=210&v=MFzDaBzBlL0" target="_blank" class="btn btn-default btn-lg">Neuroplasticidad</a>
                 </div>    
                 <div class="col-sm-6">
                     <img class="img-responsive img-circle center-block" src="images/Benja-Chicago-USA-Bicicleta.jpg" alt="">
@@ -149,7 +159,7 @@ Hoy, más de 20 años después de empezar, me gusta si puedo ayudar a alguien co
                 
             </div>
         </div>
-    </section>  -->
+    </section>  
 
     <!-- Promos -->
 		<!-- 
@@ -193,12 +203,11 @@ Hoy, más de 20 años después de empezar, me gusta si puedo ayudar a alguien co
 	<!-- Footer -->
     <footer class="page-footer">
     
-    	<!-- Contact Us -->
+    	<!-- Contacto -->
         <div class="contact">
         	<div class="container">
-				<h2 class="section-heading">Contacto</h2>
-        <!-- 				<p><span class="glyphicon glyphicon-earphone"></span><br> +1(23) 456 7890</p> -->
-				<p><span class="glyphicon glyphicon-envelope"></span><br> cr.southamerica arroba gmail.com</p>
+				<h2 class="section-heading" id="Contacto">Contacto</h2>
+				<p href="mailto:cr.southamerica@gmail.com"><span class="glyphicon glyphicon-envelope"></span><br> cr.southamerica arroba gmail.com</p>
         	</div>
         </div>
         	
@@ -226,3 +235,8 @@ Hoy, más de 20 años después de empezar, me gusta si puedo ayudar a alguien co
 </body>
 
 </html>
+
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
+<!-- -->
