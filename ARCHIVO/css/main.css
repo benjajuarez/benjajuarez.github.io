@@ -16,7 +16,6 @@ time, mark, audio, video {
   outline: 0;
   vertical-align: baseline;
   background: transparent;
-  width: 95%;
 }
 
 html, body {
@@ -41,8 +40,8 @@ audio:not([controls]) {
 
 html {
   font-size: 100%;
-  -webkit-text-size-adjust: 50%;
-  -ms-text-size-adjust: 50%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 html, button, input, select, textarea {
@@ -224,7 +223,7 @@ body {
   font-family: "font-family: " Helvetica Neue ",Helvetica,Arial,sans-serif";
   font-size: 1em;
   line-height: 1.5;
-  width: 50%
+  width: 65%
 }
 
 h1,
