@@ -221,9 +221,9 @@ body {
   background-color: #22272a;
   color: #ced9e0;
   font-family: "font-family: " Helvetica Neue ",Helvetica,Arial,sans-serif";
-  font-size: 1em;
-  line-height: 1.5;
-  width: 65%
+  font-size: 1.5em;
+  line-height: 2;
+  width: 70%
 }
 
 h1,
@@ -493,7 +493,7 @@ header nav ul li a.bordered {
   }
 }
 #content section.intro h1 {
-  font-size: 8em;
+  font-size: 6em;
   border-top: 2px solid #fff;
   letter-spacing: -0.05em;
   margin-top: 1.2em;
