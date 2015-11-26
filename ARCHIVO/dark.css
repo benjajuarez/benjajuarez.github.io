@@ -84,12 +84,12 @@ color: #f4f4f4;
 
 p {
   margin-top: 0em;
-  margin-bottom: .75em;
+  margin-bottom: 1.2em;
 }
 
 
 #left { 
-font: .8em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+font: .8em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
 width: 37%;
 padding: 1px;
 line-height: 1.4em; 
