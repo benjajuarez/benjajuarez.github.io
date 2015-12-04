@@ -95,8 +95,10 @@ padding: 1px;
 line-height: 1.4em; 
 }
 
-#left li { list-style-type: none; }
-#left li a {text-decoration: none; }
+
+
+#left li { list-style-type: none; color : white}
+#left li a {text-decoration: none; color : white}
 #left li a:hover {color : #FFEB31;}
 
 
