@@ -31,14 +31,14 @@ a { color: #FF9621; }
 height: 100px;
 margin: 0;
 padding: 0;
-color: #ec5151;
+color: #e85151;
 background: #272727;
 padding-bottom: 130px;
 border-bottom: 1px solid white;
 }
 
 #header h1 { margin: 0; padding-left: 1px; padding-top: 12px; font-size: 2.1em; color: #d75656; }
-#header h1 a { font-size: 1.1em; color: #ec5151; text-decoration: none;  letter-spacing:-1px;}
+#header h1 a { font-size: 1.1em; color: #e85151; text-decoration: none;  letter-spacing:-1px;}
 #header h2 { margin: 0; padding-left: 1px; padding-top: 3px; 
 font-size: .9em; color: #d75656;}
 
