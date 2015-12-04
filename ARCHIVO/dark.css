@@ -18,29 +18,32 @@ body {
 font: 4em  
 font-family: monospace, serif;
   _font-family: 'courier new', monospace;
-background: #272727;
+background: #22272a;
    text-align:justify;
 }
 
 h2 { font-size: 1em; }
 a { color: #FF9621; }
 
-#wrap {	margin: 20px auto;	width: 75%; background: #272727; }
+#wrap {	margin: 20px auto;	width: 75%; background: #22272a; }
 
 #header {
 height: 100px;
 margin: 0;
 padding: 0;
 color: #e85151;
-background: #272727;
+background: #22272a; /*transparent?*/
 padding-bottom: 130px;
 border-bottom: 1px solid white;
 }
 
-#header h1 { margin: 0; padding-left: 1px; padding-top: 12px; font-size: 2.1em; color: #d75656; }
+#header h1 { margin: 0; padding-left: 1px; padding-top: 12px; font-size: 2.1em; color: #d75656;}
 #header h1 a { font-size: 1.1em; color: #e85151; text-decoration: none;  letter-spacing:-1px;}
+#header h1 a:hover {color : red;}
 #header h2 { margin: 0; padding-left: 1px; padding-top: 3px; 
 font-size: .9em; color: #d75656;}
+
+
 
 h4{ 
 margin: 0; padding-left: 1px; padding-top: 3px; padding-bottom: 150px;
@@ -59,7 +62,7 @@ line-height: 22px;
 #topmenu {  
 font: .8em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 text-align: center;
-background: #272727;
+background: #22272a;
 margin-bottom: 5px;
 color: #fff;
 height: 22px;
