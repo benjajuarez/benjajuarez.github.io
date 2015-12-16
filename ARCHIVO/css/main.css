@@ -39,9 +39,9 @@ audio:not([controls]) {
 }
 
 html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 80%;
-  -ms-text-size-adjust: 80%;
+  font-size: 70%; /*100%;*/
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 html, button, input, select, textarea {
