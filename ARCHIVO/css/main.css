@@ -543,8 +543,10 @@ header nav ul li a.bordered {
   margin-bottom: 0.05em;
 }
 #content section.row p {
-  font-size: 1.2em;
-  line-height: 1.6em;
+  font-size: 0.9em;
+  line-height: 1em;
+/*  font-size: 1.2em;
+  line-height: 1.6em;*/
 }
 #content section.row .col, #content section.row .col-full {
   float: left;
