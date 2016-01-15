@@ -96,7 +96,7 @@ header .header-content .header-content-inner p {
 
 .intro {
 	color: #fff;
-    background-color: #5bbf60; /* old ... yellowgreen;*/
+    background-color: #00AEEF /*#5bbf60; /* old ... yellowgreen;*/
     padding: 70px 0;
     text-align: center;
 }
@@ -169,7 +169,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: #5bbf60; /*yellowgreen;*/
+	background-color: #00AEEF; /*#5bbf60; /*yellowgreen;*/
 	color: #fff;
 	}
 
@@ -338,9 +338,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #5bbf60; /*yellowgreen;*/
+    border-color: #00AEEF; /*#5bbf60; /*yellowgreen;*/
     color: #fff;
-    background-color: #5bbf60; /*yellowgreen;*/
+    background-color: #00AEEF; /*#5bbf60; /*yellowgreen;*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -423,7 +423,7 @@ img::-moz-selection {
 }
 
 .text-primary {
-    color: #5bbf60; /*yellowgreen;*/
+    color: #00AEEF; /*#5bbf60; /*yellowgreen;*/
 }
 
 .bg-primary {
