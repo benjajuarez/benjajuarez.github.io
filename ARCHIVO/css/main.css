@@ -18,6 +18,23 @@ time, mark, audio, video {
   background: transparent;
 }
 
+/* Formato del Menu de la lista de links */
+
+li ul {
+ display: none;
+}
+
+li:hover ul {
+ display: block;
+}
+
+/* nav#menu ul {
+	list-style: none;
+} */
+
+/* listo con Formato del Menu de la lista de links */
+
+
 html, body {
   font-size: 100%;
 }
