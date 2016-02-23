@@ -34,7 +34,9 @@
 <body>
 
     <!-- Menu superior -->
-    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: white">
+        <!-- <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: white"> -->
+
         <div class="container">
             <!-- Logo and responsive toggle -->
              <div class="navbar-header">
@@ -53,24 +55,39 @@ style="width: 80%; margin-left: auto; margin-right: auto;" />
                 </a>
             </div> 	
 
-            <!-- Menu con links -->
+            <!-- ************** Menu con links ************** -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="active"> <!-- activate the rest of classes -->
+
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+
                     <li class="active">
                         <a href="#SobreMi">Sobre mí</a>
                     </li>
-		    <!-- <li> <a href="#">Archivo</a> </li> -->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentación <span class="caret"></span></a>
+
+
+					<li class="active"> <!--  <li class="dropdown"> -->
+
+<a href="#" 
+class="dropdown-toggle" 
+data-toggle="dropdown" 
+role="button" 
+aria-haspopup="true" 
+aria-expanded="false"> 						Documentación 
+<span class="caret"></span></a>
 						<ul class="dropdown-menu" aria-labelledby="about-us">
-<li><a href="documentacion/Panel-ChiRunning-Anuncio.1.pdf" target="_blank">Anuncio General</a></li>
-<li><a href="documentacion/ChiRunning-Instructivo-1.pdf" target="_blank">1er Módulo</a></li>
-<li><a href="documentacion/ChiRunning-Instructivo-2.pdf" target="_blank">2do Módulo</a></li>
+	<li><a href="documentacion/Panel-ChiRunning-Anuncio.1.pdf" target="_blank">Anuncio General</a></li>
+	<li><a href="documentacion/ChiRunning-Instructivo-1.pdf" target="_blank">1er Módulo</a></li>
+	<li><a href="documentacion/ChiRunning-Instructivo-2.pdf" target="_blank">2do Módulo</a></li>
 <!-- download as -->
 						</ul>
 					</li>
 		    <!-- <li> <a href="#">Archivo</a> </li> -->
-					<li class="dropdown">
+
+					<li class="active"> <!--  <li class="dropdown"> -->
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talleres <span class="caret"></span></a>
 						<ul class="dropdown-menu" aria-labelledby="about-us">
 							<li><a href="#">Grupales</a></li>
@@ -79,21 +96,30 @@ style="width: 80%; margin-left: auto; margin-right: auto;" />
 						</ul>
 					</li>
 
-
-
-                    <li>
+					<li class="active"> <!--  <li class="dropdown"> -->
                         <a href="/running-blog/entrenamiento.html">Blog</a>
-                    </li>
+					</li>
 
+			<!--                      <li>
+                        <a href="/running-blog/entrenamiento.html">Blog</a>
+                    				</li>
+			-->
 
 
 		    <!-- 
                     <li class="active">
                         <a href="#">Preguntas frecuentes</a>
                     </li> -->
+
+					<li class="active"> <!--  <li class="dropdown"> -->
+                        <a href="#Contacto" href="mailto:cr.southamerica@gmail.com">Contacto</a>
+					</li>
+
+			<!--  
                     <li>
                         <a href="#Contacto" href="mailto:cr.southamerica@gmail.com">Contacto</a>
-                    </li>
+                    </li> -->
+
                 </ul>
                 
             </div><!-- /.navbar-collapse -->
