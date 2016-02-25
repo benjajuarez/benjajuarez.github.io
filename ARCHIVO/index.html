@@ -101,6 +101,7 @@ BODY
 
 <div style="background: #22272a; text-align: left; margin-top: 15px; color: grey; height: 30px; line-height: 30px;">
 
+<!--
 <script language="javascript">
 <!--
 today = new Date();
@@ -108,9 +109,19 @@ document.write("",
 today.getDate(),"/",
 today.getMonth()+1,"/",
 today.getYear()+1900);
-//-->
-</script>
+// 
+</script> <br>
+-->
 
+Última actualización:
+<script type="text/javascript">
+// script from BoogieJack.com
+var m = " " + document.lastModified;
+var p = m.length-8;
+document.writeln("<div style='font-size: 12px;'>");
+document.write(m.substring(p, 0));
+document.writeln("</div>"); 
+</script>
 
 
 <!--
