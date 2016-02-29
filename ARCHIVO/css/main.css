@@ -280,9 +280,12 @@ h6 {
 }
 
 p {
-  margin: 0 0 0.35em; /*0 0 0.75em;*/
+  /* margin: 0 0 0.75em; original  */
+  /* margin: 0 0 0.35em;  modified*/
+  margin: 0 0 0.75em;
   font-family: "font-family: " Helvetica Neue ",Helvetica,Arial,sans-serif";
   line-height: 200%; /* new line to add space in mobile phone */
+
 }
 
 a {
