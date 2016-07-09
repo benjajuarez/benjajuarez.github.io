@@ -4,8 +4,11 @@ benjajuarez.github.io
 How-To Clone a Repository (go to the proper folder):
 git clone https://github.com/benjajuarez/benjajuarez.github.io
 
+cd into the directory...
 
 Add, commit, and push your changes:
+
+
 
 git add --all
 

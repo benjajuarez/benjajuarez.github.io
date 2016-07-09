@@ -5,8 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-/*  font-family: sans-serif; */
-  font-family: Brandon Grotesque;  
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -62,7 +61,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 1em;
+  font-size: 2em;
 }
 mark {
   color: #000;
@@ -1143,7 +1142,7 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-circle {
-  border-radius: 100%; /*50%;*/
+  border-radius: 50%;
 }
 hr {
   margin-top: 20px;
@@ -1605,8 +1604,8 @@ pre code {
   }
 }
 .container-fluid {
-  padding-right: auto; /*15px;*/
-  padding-left: auto; /*15px;*/
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
